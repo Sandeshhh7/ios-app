@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "react-native": [
+        "./src/shim/react-native.tsx"
+      ],
+      "expo-av": [
+        "./src/shim/expo-av.ts"
+      ],
+      "expo-document-picker": [
+        "./src/shim/expo-document-picker.ts"
+      ],
+      "expo-file-system": [
+        "./src/shim/expo-file-system.ts"
+      ],
+      "react-native-safe-area-context": [
+        "./src/shim/safe-area.tsx"
+      ],
+      "@expo/vector-icons": [
+        "./src/shim/vector-icons.tsx"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
+}

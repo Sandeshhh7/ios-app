@@ -1,0 +1,6 @@
+{
+  "name": "React Native Audio Player",
+  "description": "Production-ready React Native Expo audio player with high-fidelity FLAC/MP3 support, document picker, queue management, and iOS glassmorphic UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
